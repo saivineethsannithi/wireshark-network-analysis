@@ -48,21 +48,21 @@ wireshark-network-analysis/
 ```bash
 sudo apt update && sudo apt install wireshark -y
 ```
-🔹 Screenshot: `installation_of_wireshark.png`
+🔹 Screenshot: ![installation of wireshark](https://github.com/user-attachments/assets/9171451d-59e8-4a4e-a21e-9dbba9aa11f0)
 
 ---
 
 ### 2. Started Wireshark and Began Capturing
 - Interface: `eth0`
 - Clicked the blue **Start Capturing** button.
-🔹 Screenshot: `wireshark_fin_button.png`
+🔹 Screenshot: ![wireshark fin button](https://github.com/user-attachments/assets/98282ee9-bc87-4f86-bb39-4296c196cffd)
 
 ---
 
 ### 3. Visited Insecure HTTP Website
 - Website: [httpforever.com](http://httpforever.com)
 - Purpose: To generate unencrypted web traffic
-🔹 Screenshot: `http_login_data.png`
+🔹 Screenshot: ![HTTP login data](https://github.com/user-attachments/assets/20d48f40-1395-4b7e-9d6e-81b888f63465)
 
 ---
 
@@ -75,7 +75,7 @@ nmap -sS <target-ip>
 ```wireshark
 tcp.flags.syn == 1 and tcp.flags.ack == 0
 ```
-🔹 Screenshot: `port_scanning.png`
+🔹 Screenshot: ![port scanning](https://github.com/user-attachments/assets/f310e06b-2538-41ee-b185-a417a6c9166c)
 
 ---
 
@@ -101,8 +101,13 @@ http.request.uri contains ".exe"
 ## 🖼️ Screenshots
 
 All screenshots are saved under the `screenshots/` folder for each activity:
+![VirtualBox_kali-linux-2025 1c-virtualbox-amd64_19_06_2025_10_00_21](https://github.com/user-attachments/assets/42a305d0-852e-47a4-8e4c-f8e9193cb4a2)
 - Traffic capture
+
+![data capture](https://github.com/user-attachments/assets/ef34307c-3546-49d2-add7-ff046cf3ef6f)
 - Filtered results
+
+![capturing ](https://github.com/user-attachments/assets/da91c466-85fb-431d-a9d2-88a4ebec673b)
 - Tool interfaces
 
 ---
